@@ -1,0 +1,26 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "facebook",
+    "twitter"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "Deep-dive into AWS"
+    },
+    {
+      "type": "small",
+      "title": "Amazon Web Service",
+      "url": "https://aws.amazon.com/",
+      "image": "assets/aws.png"
+    },
+    {
+      "type": "small",
+      "title": "AWS Educate",
+      "url": "https://aws.amazon.com/jp/education/awseducate/",
+      "image": "assets/awsedu.jpg"
+    }
+    
+  ]
+}
