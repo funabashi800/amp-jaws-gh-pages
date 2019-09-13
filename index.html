@@ -125,13 +125,13 @@
     poster-portrait-src="assets/jaw.png"
     supports-landscape>
       <amp-story-page id="cover" auto-advance-after="10s">
-        <amp-story-grid-layer template="vertical" style="background-image:linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); background-color: #fc9842;">
-          <h1>WTF is JAWS-SG?</h1>
+        <amp-story-grid-layer template="thirds" style="background-image:linear-gradient(315deg, #fc9842 0%, #fe5f75 74%); background-color: #fc9842;">
+          <h1 grid-area="upper-third">WTF is JAWS-SG?</h1>
           <amp-img src="assets/jaw.png"
               width="200" height="200"
-              layout="fixed">
+              layout="fixed" grid-area="middle-third">
           </amp-img>
-          <p>We are the student brunch of the JAWS in Japan. Our aim is to spread AWS to students and share information between students.</p>
+          <p grid-area="lower-third">We are the student brunch of the JAWS in Japan. Our aim is to spread AWS to students and share information between students.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -167,30 +167,16 @@
             width="720" height="1280"
             layout="responsive"></amp-img>
         </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical">
+        <amp-story-grid-layer template="thirds">
           <h1>Let's join Slack Channel</h1>
           <amp-img src="assets/slack-logo.png"
               width="300" height="77"
               layout="fixed">
           </amp-img>
+          <a grid-area="lower-third" href="https://slackinvite.funabashi800.now.sh/" style="text-decoration: none;" class="submitbtn" style="text-align: center; font-size:30px; margin: 0 auto; cursor: pointer;">
+            JOIN SLACK CHANNEL
+          </a> 
         </amp-story-grid-layer>
-        <amp-story-page-attachment layout="nodisplay" data-cta-text="Join Slack Channel">
-            <div class="form">
-              <amp-img alt="A view of the sea"
-                src="assets/jaws.png"
-                width="894"
-                height="276"
-                layout="responsive">
-              </amp-img>
-              <p style="color: black;">Let's start your jurney to AWS 🚀🚀🚀</p>
-              <amp-img src="../assets/slack-black.png" width="300"
-                height="130"
-                layout="responsive"></amp-img>
-              <a href="https://jaws-sg.now.sh/" style="text-decoration: none;" class="submitbtn" style="text-align: center; font-size:30px; margin: 0 auto;">
-                JOIN SLACK CHANNEL
-              </a> 
-          </div>
-        </amp-story-page-attachment>
       </amp-story-page>
       <amp-story-bookend src="bookend.json" layout=nodisplay>
       </amp-story-bookend>
